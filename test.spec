@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['project/test.py'],
-             pathex=['/home/hjchoi/Desktop/workspace/test/pyinstaller_test_project_structure'],
+             pathex=['./'],
              binaries=[],
              datas=[("./project/Inner/child_dir_text.txt","./Inner")],
              hiddenimports=[],
