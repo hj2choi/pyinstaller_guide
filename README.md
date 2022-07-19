@@ -51,7 +51,9 @@ Easy to debug, build and deploy
 #### --onefile
 compress the executable into a single file.
 when you run the onefile binary executable, it uncompresses the file, and then run just like --onedirectory mode.
+
 After the execution is complete, all temporary directory and files are discarded.
+
 (possible issue: temporary directory might not be properly removed if the executable is not terminated properly. Use --runtime-tempdir to check and manually remove stacked up temporary files)
 
 
